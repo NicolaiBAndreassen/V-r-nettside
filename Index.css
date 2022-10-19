@@ -1,0 +1,75 @@
+* {box-sizing: border-box}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+}
+
+.navbar {
+  background-color: rgb(86, 141, 204);
+  overflow: auto;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: left;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(47, 79, 116);
+}
+
+.navbar a.active {
+  background-color:rgb(146, 177, 212);
+}
+
+.container {
+  width:60%;
+  height:60%;
+  background: white;
+  border-radius: 30px;
+}
+
+.idag {
+  padding: 30px;
+  text-align: center;
+}
+
+#sted {
+  font-size: 50px;
+}
+
+#dato {
+  font-size: 35px;
+}
+
+#tid {
+  font-size: 30px;
+}
+
+.værIdag {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+td {
+  width:50%;
+}
+table, th, td {
+  border:1px solid black;
+  font-size: 25px;
+}
